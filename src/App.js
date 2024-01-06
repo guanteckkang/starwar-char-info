@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import { Hello } from "./component/helo";
+import { Buttons } from "./component/button";
+import { Starwar } from "./component/starwar";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Buttons amt={1} /> */}
+      {/* <Buttons amt={2} /> */}
+      {/* <Buttons amt={3} /> */}
+      <Starwar />
     </div>
   );
 }
